@@ -9,7 +9,7 @@ const Post = require('./src/models/post');
 const app = express()
 
 // Define DB Connection
-const db = mongoose.connect('mongodb://localhost:27017/first-node-api-db')
+const db = mongoose.connect('mongodb://localhost:27017/GEOGO-FSWDI-A4-DB')
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
